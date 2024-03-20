@@ -1,9 +1,17 @@
-function isPalindrome(word) {
-  // Write your algorithm here
+function isPalindrome(str){
+  let reversed = str.split("").reverse().join("");
+  if (reversed === str) return true;
+
+  return false;
+  
 }
 
-/* 
-  Add your pseudocode here
+isPalindrome("abba");
+
+
+
+/* If given variable's letters are the same forwards as backwards then return true. If they aren't the same forwards as backwards then return false.
+
 */
 
 /*
